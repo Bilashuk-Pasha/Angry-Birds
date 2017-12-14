@@ -149,7 +149,7 @@ h2 {
     }
 }	
 
-@media all and (min-width: 240px) and (max-width: 466px) {
+@media all and (min-width: 240px) and (max-width: 480px) {
 	.clients img {
 		width: 45%;
 		height: auto;    
