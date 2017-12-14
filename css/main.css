@@ -1,0 +1,170 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+p { 
+	padding: 25px 0;
+	color: #8f8f94;
+}
+img {
+	background: #c1b8b8;
+}
+h1,
+h3,
+h2 {
+	font-weight: 200;
+}
+.flex_body {
+	max-width: 1124px;
+	margin: 0 auto ;
+	padding: 15px 25px 25px;
+	display: flex;
+	flex-direction: column;
+	font-family: Arial Narrow, Arial Cyr;
+}
+
+.header {
+	background: #f5f5f5;
+	box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+	border: 1px solid #c0c0c0;
+	border-radius: 5px;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+}
+.header_a {
+	padding: 0 16px;
+	color: #8f8f94;
+	text-decoration: none;
+}
+.flex_SH {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	height: 450px;
+    background: #f5f5f5;
+    margin-top: 50px;
+}
+.flex_SH p,
+.flex_SH h1{
+	max-width: 560px;
+	text-align: center;
+	padding: 15px 40px;
+}
+.flex_SH h1 {
+    text-align: center;	
+	font-size: 40px;
+}
+.button input {
+   width: 80px;
+   height: 40px;
+   border: 1px solid #c0c0c0;
+   border-radius: 5px;
+   background: #f5f5f5;
+ } 
+ #button_blue {
+ 	color: #ffffff; 
+ 	background: #00abe6;
+ }
+.main {
+	padding-top: 35px;
+	border-bottom: 1px solid #c0c0c0; 
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.index_main {
+	flex: 1 340px;
+}
+.fa {
+	padding-right: 35px;
+ 	color: #1b708e;
+ }
+ .main div p {
+  	padding-left: 70px;
+}
+.flex_Heading {
+	border-bottom: 1px solid #c0c0c0;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.index_heading {
+	padding: 20px 0;
+	flex: 1 400px;
+}
+.index_heading img {
+	flex: 2 320px;
+	width: 100%;
+}
+.if1,
+.if3 {
+	padding-right: 25px;
+}
+.index_heading input,
+.flex_H input {
+	width: 70px;
+	height: 32px;
+	color: #ffffff;
+	background: #00abe6;
+	border: 1px solid #c0c0c0;
+	border-radius: 5px;
+}
+.flex_H {
+	margin: 25px 0;
+	padding: 0 25px;
+	background: #f5f5f5;
+	text-align: center;
+	border: 1px solid #c0c0c0;
+	border-radius: 5px;
+}
+#id {
+	padding-left: 25px;
+}
+#span {
+	font-weight: bolder;
+}
+.Our_Clients h2 {
+	text-align: center;
+	margin-bottom: 25px;
+}
+.clients {
+	display: flex;
+	justify-content: space-between;
+    flex-wrap: wrap;
+}
+.clients img {
+	max-width: 100%;
+	margin: 5px;
+}
+.header_a:hover {
+	border: 1px solid #c0c0c0;
+	padding: 11px;  
+}
+@media all and (min-width: 0px) and (max-width: 900px) {
+	.if1,
+    .if3 {
+	    padding-right: 0;
+    }
+}	
+
+@media all and (min-width: 240px) and (max-width: 466px) {
+	.clients img {
+		width: 45%;
+		height: auto;    
+	}
+	.flex_SH p,
+    .flex_SH h1 {
+	    padding: 15px 130px;
+    }
+    .header {
+    	flex-direction: column;
+    }
+    .header {
+    	display: none;
+    }
+    .flex_SH {
+    	margin: 0;
+    }
+}
