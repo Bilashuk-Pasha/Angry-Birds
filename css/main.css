@@ -2,11 +2,11 @@
 	margin: 0;
 	padding: 0;
 }
-p { 
+.flex_body p { 
 	padding: 25px 0;
 	color: #8f8f94;
 }
-img {
+.img_Angry {
 	background: #c1b8b8;
 }
 h1,
